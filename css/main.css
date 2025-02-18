@@ -34,13 +34,18 @@ a {
     color: #ff8800;
 }
 
+a:hover {
+    color: #666;
+}
+
 /********** STYLE HEADER *********/
 header {
     padding: 1rem;
     text-align: center;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
-header img {
+
+header .logo {
     max-height: 80px;
 }
 
@@ -68,7 +73,6 @@ header nav a.actif {
 
 header nav a:hover {
     border-bottom: 3px solid #151515;
-    color: #666;
     background-color: #eeeeee;
 }
 
@@ -117,7 +121,7 @@ footer {
     padding: 1.5rem .75rem;
 }
 
-.produits figcaption {
+.produits figure {
     font-size: 1.2rem;
     border: #151515 2px solid;
     padding: 1rem 0;
